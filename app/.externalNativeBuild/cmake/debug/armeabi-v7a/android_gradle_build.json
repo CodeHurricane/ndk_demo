@@ -1,0 +1,54 @@
+
+{
+	"buildFiles" : [ "D:/project/hello-libs/app/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\project\\hello-libs\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-libs-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\project\\hello-libs\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target hello-libs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -ID:\\project\\hello-libs\\app\\src\\main\\cpp\\..\\..\\..\\..\\distribution\\gmath\\include -ID:\\project\\hello-libs\\app\\src\\main\\cpp\\..\\..\\..\\..\\distribution\\gperf\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\sdk\\ndk-bundle\\sources\\android\\support\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/project/hello-libs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "D:/project/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "D:/project/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so",
+			"toolchain" : "1534523253"
+		},
+		"lib_gmath-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_gmath",
+			"buildType" : "debug",
+			"output" : "D:/project/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/armeabi-v7a/libgmath.a",
+			"toolchain" : "1534523253"
+		},
+		"lib_gperf-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_gperf",
+			"buildType" : "debug",
+			"output" : "D:/project/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/armeabi-v7a/libgperf.so",
+			"toolchain" : "1534523253"
+		}
+	},
+	"toolchains" : 
+	{
+		"1534523253" : 
+		{
+			"cCompilerExecutable" : "D:/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,54 @@
+
+{
+	"buildFiles" : [ "D:/project/hello-libs/app/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\project\\hello-libs\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-libs-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "D:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\project\\hello-libs\\app\\.externalNativeBuild\\cmake\\debug\\x86_64 --target hello-libs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=D:/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=D:/sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -ID:\\project\\hello-libs\\app\\src\\main\\cpp\\..\\..\\..\\..\\distribution\\gmath\\include -ID:\\project\\hello-libs\\app\\src\\main\\cpp\\..\\..\\..\\..\\distribution\\gperf\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem D:\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem D:/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/project/hello-libs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "D:/project/hello-libs/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "D:/project/hello-libs/app/build/intermediates/cmake/debug/obj/x86_64/libhello-libs.so",
+			"toolchain" : "1534523253"
+		},
+		"lib_gmath-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "lib_gmath",
+			"buildType" : "debug",
+			"output" : "D:/project/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/x86_64/libgmath.a",
+			"toolchain" : "1534523253"
+		},
+		"lib_gperf-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "lib_gperf",
+			"buildType" : "debug",
+			"output" : "D:/project/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/x86_64/libgperf.so",
+			"toolchain" : "1534523253"
+		}
+	},
+	"toolchains" : 
+	{
+		"1534523253" : 
+		{
+			"cCompilerExecutable" : "D:/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

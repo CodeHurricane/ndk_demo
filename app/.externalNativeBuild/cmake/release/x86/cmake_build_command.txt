@@ -1,0 +1,15 @@
+Executable : D:\sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\project\hello-libs\app\src\main\cpp
+-BD:\project\hello-libs\app\.externalNativeBuild\cmake\release\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\project\hello-libs\app\build\intermediates\cmake\release\obj\x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=D:\sdk\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=D:\sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_static
+jvmArgs : 
+
